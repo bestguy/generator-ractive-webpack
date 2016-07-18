@@ -3,8 +3,6 @@
 ![Dependency Tracker](https://img.shields.io/david/bestguy/generator-ractive-webpack.svg "Dependency Tracker") 
 ![Dependency Tracker](https://img.shields.io/david/dev/bestguy/generator-ractive-webpack.svg "Dev Dependency Tracker")
 
-# Ractive Webpack Boilerplate
-
 **RactiveJS application boilerplate with routing, internationalized text, date formatting, animations, pubsub, etc.**
 
 Develop with ES2015, Webpack, and hot reloading - all the good stuff from React development, without using React and JSX :-P

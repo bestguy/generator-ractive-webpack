@@ -34,13 +34,13 @@
     "release:patch": "npm version prerelease && git push --follow-tags && npm publish --tag beta"
   },
   "dependencies": {
-    "ractive-webpack-boilerplate": "github:bestguy/ractive-webpack-boilerplate",
     "escodegen": "^1.7.0",
     "esprima": "^2.7.0",
     "esprima-walk": "^0.1.0",
     "lodash": "^4.13.1",
+    "ractive-webpack-boilerplate": "github:bestguy/ractive-webpack-boilerplate",
     "underscore.string": "^3.2.2",
-    "yeoman-generator": "^0.23.0",
+    "yeoman-generator": "^0.24.1",
     "yeoman-welcome": "^1.0.1"
   },
   "devDependencies": {
