@@ -1,0 +1,56 @@
+{
+  "name": "generator-ractive-webpack",
+  "version": "0.1.0",
+  "description": "Yeoman generator for RactiveJS and Webpack",
+  "keywords": [
+    "yeoman-generator",
+    "ractive"
+  ],
+  "homepage": "https://github.com/bestguy/generator-ractive-webpack",
+  "bugs": "https://github.com/bestguy/generator-ractive-webpack/issues",
+  "author": {
+    "name": "Gary Thomas",
+    "url": "https://github.com/bestguy"
+  },
+  "contributors": [
+    {
+      "name": "Simon Bailey",
+      "email": "simon@newtriks.com",
+      "url": "https://github.com/newtriks"
+    }
+  ],
+  "main": "generators/app/index.js",
+  "files": [
+    "generators/app",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bestguy/generator-ractive-webpack.git"
+  },
+  "scripts": {
+    "release:major": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
+    "release:minor": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
+    "release:patch": "npm version prerelease && git push --follow-tags && npm publish --tag beta"
+  },
+  "dependencies": {
+    "ractive-webpack-boilerplate": "github:bestguy/ractive-webpack-boilerplate",
+    "escodegen": "^1.7.0",
+    "esprima": "^2.7.0",
+    "esprima-walk": "^0.1.0",
+    "lodash": "^4.13.1",
+    "underscore.string": "^3.2.2",
+    "yeoman-generator": "^0.23.0",
+    "yeoman-welcome": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.1"
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "iojs": ">=1.1.0"
+  },
+  "license": "MIT"
+}
