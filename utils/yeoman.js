@@ -17,7 +17,7 @@ const getBaseDir = () => baseName;
  * @param  {String} appName The input application name [optional]
  * @return {String}
  */
-const getAppName = (appName = getBaseDir()) => _.slugify(_.humanize(appName));
+const getAppName = appName => _.slugify(_.humanize(appName || getBaseDir()));
 
 module.exports = {
   getBaseDir,
